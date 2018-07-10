@@ -1,0 +1,53 @@
+$badges-width: 62px;
+$badges-height: 62px;
+$badges: url('../../modules/playerstatscard/assets/badges_sprite.png');
+
+// Arsenal
+.badge-1 {
+  background-image: $badges;
+  background-size: 1200%;
+  background-position-x: -($badges-width * 1);
+  background-position-y: -($badges-height * 1);
+  width: $badges-width;
+  height: $badges-height;
+}
+
+// Manchester City
+.badge-11 {
+  background-image: $badges;
+  background-size: 1200%;
+  background-position-x: -($badges-width * 8) + 1;
+  background-position-y: -($badges-height * 7) + 1;
+  width: $badges-width;
+  height: $badges-height;
+}
+
+// Manchester United
+.badge-12 {
+  background-image: $badges;
+  background-size: 1200%;
+  background-position-x: -($badges-width * 6) + 1;
+  background-position-y: -($badges-height * 8) + 1;
+  width: $badges-width;
+  height: $badges-height;
+}
+
+// Tottenam Hotspur
+.badge-21 {
+  background-image: $badges;
+  background-size: 1200%;
+  background-position-x: -($badges-width * 5) + 2;
+  background-position-y: -($badges-height * 10) + 1;
+  width: $badges-width;
+  height: $badges-height;
+}
+
+// Leicester City
+.badge-26 {
+  background-image: $badges;
+  background-size: 1200%;
+  background-position-x: 0;
+  background-position-y: 0;
+  width: $badges-width;
+  height: $badges-height;
+}

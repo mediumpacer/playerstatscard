@@ -1,0 +1,22 @@
+{
+  "name": "player-stats-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "playerstatscard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leigh Clancy",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "^5.0.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-wrap": "^0.14.0",
+    "handlebars": "^4.0.11"
+  },
+  "dependencies": {}
+}

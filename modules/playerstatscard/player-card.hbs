@@ -1,0 +1,9 @@
+<div class="player-card__selector-wrapper">
+  <select class="player-card__selector">
+    <option value="">Select a player</option>
+    {{#each players}}
+      <option value="{{player.id}}">{{player.name.first}} {{player.name.last}}</option>
+    {{/each}}
+  </select>
+</div>
+<div class="player-card__container"></div>
