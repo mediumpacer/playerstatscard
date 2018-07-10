@@ -21,6 +21,8 @@
     background: #eaeaea;
     border: 0;
     padding: 0 10px;
+    border-radius: 0;
+    font-size: 16px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -113,7 +115,6 @@
       border-radius: 50%;
     }
 
-
     &-text {
       @extend %hidden;
     }
@@ -150,6 +151,4 @@
       font-weight: bold;
     }
   }
-
-
 }
